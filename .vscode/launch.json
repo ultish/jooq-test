@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "JooqTestApplication",
+      "request": "launch",
+      "mainClass": "com.example.jooqtest.JooqTestApplication",
+      "projectName": "jooq-test"
+    },
+    {
+      "type": "java",
+      "name": "JooqTestApplication",
+      "request": "launch",
+      "mainClass": "com.example.jooqtest.JooqTestApplication",
+      "projectName": "jooqtest-jooq-test"
+    }
+  ]
+}

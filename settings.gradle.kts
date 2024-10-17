@@ -1,1 +1,1 @@
-rootProject.name = "jooq-test"
+rootProject.name = "jooqtest"
