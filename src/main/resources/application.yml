@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: jooq-test
+
+  datasource:
+    url: jdbc:h2:mem:testdb;MODE=PostgreSQL
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  sql:
+    init:
+      mode: always
+
+jooq:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+  generator:
+    database:
+      name: org.jooq.meta.h2.H2Database
+    generate:
+      pojos: true
+      daos: true
+      springAnnotations: true
+    target:
+      packageName: com.example.jooq_test.generated
